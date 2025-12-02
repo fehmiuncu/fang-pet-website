@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Fang</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .support-hero {
+            padding: 120px 0 60px;
+            text-align: center;
+        }
+
+        .faq-section {
+            max-width: 800px;
+            margin: 0 auto 80px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            padding: 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .faq-question {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: var(--text-main);
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .contact-section {
+            text-align: center;
+            padding: 60px 0 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="glass-panel header-glass">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" alt="Fang Logo" width="40" height="40"
+                        style="width: 40px !important; height: 40px !important; border-radius: 10px;">
+                </a>
+                <div class="nav-links">
+                    <a href="index.html" data-i18n="nav.home">Home</a>
+                    <a href="index.html#features" data-i18n="nav.features">Features</a>
+                    <a href="support.html" data-i18n="nav.support" style="color: var(--primary);">Support</a>
+                    <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+                    <a href="terms.html" data-i18n="footer.terms">Terms</a>
+                    <select id="language-select" class="lang-switcher">
+                        <option value="tr">🇹🇷 TR</option>
+                        <option value="en">🇺🇸 EN</option>
+                    </select>
+                    <a href="https://apps.apple.com/app/id6738343725" class="btn btn-download"
+                        style="padding: 8px 20px; font-size: 0.9rem;" data-i18n="nav.download">Download</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="support-hero">
+            <h1 data-i18n="support.title">How can we help?</h1>
+            <p data-i18n="support.subtitle">Find answers to common questions or get in touch.</p>
+        </section>
+
+        <section class="faq-section">
+            <h2 style="text-align: center; margin-bottom: 40px;" data-i18n="support.faq_title">Frequently Asked
+                Questions</h2>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q1">Is my data really safe?</div>
+                <div class="faq-answer" data-i18n="support.a1">Absolutely. Fang uses no external servers. All data is
+                    stored encrypted on your device and your own iCloud account.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q2">How does sharing work?</div>
+                <div class="faq-answer" data-i18n="support.a2">Tap 'Share' in the pet profile and send a link to your
+                    sitter or vet. Once accepted, all data becomes shared.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q3">Is the app free?</div>
+                <div class="faq-answer" data-i18n="support.a3">Fang is free to download and contains no ads. Some
+                    advanced features may require a subscription.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q4">How do I create a lost pet poster?</div>
+                <div class="faq-answer" data-i18n="support.a4">Go to your pet's profile and tap 'Create Lost Poster'. A
+                    shareable image is generated in seconds.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q5">Can I use it offline?</div>
+                <div class="faq-answer" data-i18n="support.a5">Yes, Fang works offline for basic features. However,
+                    internet connection is required for features like Sharing and Places.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q6">Can I add multiple pets?</div>
+                <div class="faq-answer" data-i18n="support.a6">Yes, you can create unlimited pet profiles with Fang and
+                    track each one individually.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q7">Does it drain battery?</div>
+                <div class="faq-answer" data-i18n="support.a7">No, Fang is optimized for energy efficiency. GPS is only
+                    used during active walks.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q8">How do I delete my data?</div>
+                <div class="faq-answer" data-i18n="support.a8">You can permanently delete all your data via 'Reset All
+                    Data' in Settings > Data & Privacy.</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q9">Is there an Apple Watch app?</div>
+                <div class="faq-answer" data-i18n="support.a9">Our Apple Watch app is currently in development. Coming
+                    soon!</div>
+            </div>
+
+            <div class="glass-panel faq-item">
+                <div class="faq-question" data-i18n="support.q10">Can I track medications?</div>
+                <div class="faq-answer" data-i18n="support.a10">Yes, you can record dosage, frequency, and duration of
+                    medications and get reminders.</div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2 data-i18n="support.contact_title">Still need help?</h2>
+            <p data-i18n="support.contact_desc">Our team is ready to assist you.</p>
+            <a href="mailto:support@fang.pet" class="btn btn-primary" data-i18n="support.contact_btn">Contact
+                Support</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container" style="text-align: center; padding-bottom: 40px;">
+            <p data-i18n="footer.copyright">© 2025 Fang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
