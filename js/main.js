@@ -1,85 +1,85 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Language Handling
-    // Default to 'en', but check if device is 'tr' or 'ja'
+    // Default to 'en', but check if device is 'tr'
     let detectedLang = 'en';
     if (navigator.language.startsWith('tr')) {
         detectedLang = 'tr';
+    }
 
+    let currentLang = localStorage.getItem('fang_lang') || detectedLang;
 
-        let currentLang = localStorage.getItem('fang_lang') || detectedLang;
+    const updateContent = (lang) => {
+        document.documentElement.lang = lang;
 
-        const updateContent = (lang) => {
-            document.documentElement.lang = lang;
-
-            // Update simple text elements
-            document.querySelectorAll('[data-i18n]').forEach(element => {
-                const keys = element.getAttribute('data-i18n').split('.');
-                let value = translations[lang];
-                keys.forEach(key => {
-                    if (value) value = value[key];
-                });
-                if (value) {
-                    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                        element.placeholder = value;
-                    } else {
-                        element.textContent = value;
-                    }
-                }
+        // Update simple text elements
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const keys = element.getAttribute('data-i18n').split('.');
+            let value = translations[lang];
+            keys.forEach(key => {
+                if (value) value = value[key];
             });
-
-            // Update Legal Content (Show/Hide sections)
-            document.querySelectorAll('.legal-text-block').forEach(block => {
-                if (block.getAttribute('lang') === lang) {
-                    block.style.display = 'block';
+            if (value) {
+                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                    element.placeholder = value;
                 } else {
-                    block.style.display = 'none';
+                    element.textContent = value;
                 }
-            });
-
-            localStorage.setItem('fang_lang', lang);
-
-            // Update select dropdown if exists
-            const langSelect = document.getElementById('language-select');
-            if (langSelect) langSelect.value = lang;
-        };
-
-        // Initialize language
-        updateContent(currentLang);
-
-        // Language Switcher Event
-        const langSelect = document.getElementById('language-select');
-        if (langSelect) {
-            langSelect.addEventListener('change', (e) => {
-                currentLang = e.target.value;
-                updateContent(currentLang);
-            });
-        }
-
-        // Smooth Scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
+            }
         });
 
-        // Animation on Scroll
-        const observerOptions = { threshold: 0.1 };
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
+        // Update Legal Content (Show/Hide sections)
+        document.querySelectorAll('.legal-text-block').forEach(block => {
+            if (block.getAttribute('lang') === lang) {
+                block.style.display = 'block';
+            } else {
+                block.style.display = 'none';
+            }
+        });
 
-        document.querySelectorAll('.animate-on-scroll').forEach(el => {
-            observer.observe(el);
+        localStorage.setItem('fang_lang', lang);
+
+        // Update select dropdown if exists
+        const langSelect = document.getElementById('language-select');
+        if (langSelect) langSelect.value = lang;
+    };
+
+    // Initialize language
+    updateContent(currentLang);
+
+    // Language Switcher Event
+    const langSelect = document.getElementById('language-select');
+    if (langSelect) {
+        langSelect.addEventListener('change', (e) => {
+            currentLang = e.target.value;
+            updateContent(currentLang);
+        });
+    }
+
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
         });
     });
+
+    // Animation on Scroll
+    const observerOptions = { threshold: 0.1 };
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => {
+        observer.observe(el);
+    });
+});
 
 // Modal Logic
 const modalData = {
