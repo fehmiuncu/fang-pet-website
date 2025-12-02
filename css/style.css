@@ -243,6 +243,10 @@ nav {
     transform: translateY(-10px);
 }
 
+.feature-card h3 {
+    margin-bottom: 12px;
+}
+
 .feature-icon {
     width: 64px;
     height: 64px;
