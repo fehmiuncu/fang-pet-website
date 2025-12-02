@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Mark JS as loaded for progressive enhancement
+    document.body.classList.add('js-loaded');
+
     // Language Handling
     // Default to 'en', but check if device is 'tr'
     let detectedLang = 'en';
