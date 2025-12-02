@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - Fang</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="assets/images/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="../assets/images/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         .legal-content {
@@ -60,6 +60,19 @@
             border-radius: 8px;
             margin: 24px 0;
         }
+
+        /* Mobile fix */
+        @media (max-width: 768px) {
+            .legal-content {
+                margin: 100px auto 40px;
+                padding: 24px;
+                overflow: visible;
+            }
+
+            .glass-panel.legal-content {
+                border-radius: 16px;
+            }
+        }
     </style>
 </head>
 
@@ -67,16 +80,16 @@
     <header class="glass-panel header-glass">
         <div class="container">
             <nav>
-                <a href="index.html" class="logo">
-                    <img src="assets/images/logo.png" alt="Fang Logo" width="40" height="40"
+                <a href="../" class="logo">
+                    <img src="../assets/images/logo.png" alt="Fang Logo" width="40" height="40"
                         style="width: 40px !important; height: 40px !important; border-radius: 10px;">
                 </a>
                 <div class="nav-links">
-                    <a href="index.html" data-i18n="nav.home">Home</a>
-                    <a href="index.html#features" data-i18n="nav.features">Features</a>
-                    <a href="support.html" data-i18n="nav.support">Support</a>
-                    <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
-                    <a href="terms.html" data-i18n="footer.terms" style="color: var(--primary);">Terms</a>
+                    <a href="../" data-i18n="nav.home">Home</a>
+                    <a href="../#features" data-i18n="nav.features">Features</a>
+                    <a href="../support/" data-i18n="nav.support">Support</a>
+                    <a href="../privacy/" data-i18n="footer.privacy">Privacy</a>
+                    <a href="../terms/" data-i18n="footer.terms" style="color: var(--primary);">Terms</a>
                     <select id="language-select" class="lang-switcher">
                         <option value="tr">🇹🇷 TR</option>
                         <option value="en">🇺🇸 EN</option>
@@ -803,8 +816,8 @@
         </div>
     </footer>
 
-    <script src="js/translations.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/translations.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
