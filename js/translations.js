@@ -47,13 +47,13 @@ const translations = {
             a1: "Kesinlikle. Fang hiçbir harici sunucu kullanmaz. Tüm verileriniz telefonunuzda ve kendi iCloud hesabınızda şifreli olarak saklanır.",
 
             q2: "Paylaşım özelliği nasıl çalışır?",
-            a2: "Evcil hayvan profilinden 'Paylaş' seçeneğine tıklayın ve aile üyenize, bakıcınıza veya veterinerinize bir bağlantı gönderin. Kabul ettiklerinde tüm veriler ortaklaşır.",
+            a2: "Evcil hayvan profilinden 'Paylaş' seçeneğine tıklayın ve aile üyenize, bakıcınıza veya veterinerinize bir bağlantı gönderin. Kabul ettiklerinde tüm veriler otomatik senkronize olur.",
 
             q3: "Uygulama ücretli mi?",
             a3: "Fang'i indirmek ücretsizdir. Reklam içermez. Bazı gelişmiş özellikler için abonelik gerekebilir.",
 
             q4: "Kayıp posteri nasıl oluştururum?",
-            a4: "Evcil hayvanınızın profiline gidin ve 'Kayıp Posteri Oluştur' butonuna basın. Saniyeler içinde paylaşılabilir bir görsel hazırlanır.",
+            a4: "Evcil hayvanınızın profiline gidin ve 'Kayıp Posteri' butonuna basın. Saniyeler içinde paylaşılabilir bir görsel hazırlanır.",
 
             q5: "İnternet olmadan kullanabilir miyim?",
             a5: "Evet, Fang temel özellikleriyle çevrimdışı çalışır. Ancak Paylaşım ve Yerler gibi özellikler için internet bağlantısı gereklidir.",
@@ -65,10 +65,10 @@ const translations = {
             a7: "Hayır, Fang enerji verimliliği için optimize edilmiştir. GPS sadece aktif yürüyüş sırasında kullanılır.",
 
             q8: "Verilerimi nasıl silebilirim?",
-            a8: "Ayarlar > Veri ve Gizlilik menüsünden 'Tüm Verileri Sıfırla' seçeneği ile tüm verilerinizi kalıcı olarak silebilirsiniz.",
+            a8: "Ayarlar > Veri Yönetimi menüsünden tüm verilerinizi kalıcı olarak silebilirsiniz.",
 
             q9: "Apple Watch desteği var mı?",
-            a9: "Şu an için Apple Watch uygulamamız geliştirme aşamasındadır. Yakında sizlerle olacak!",
+            a9: "Şu an için Apple Watch uygulamamız geliştirme aşamasında. Yakında sizlerle olacak!",
 
             q10: "İlaç takibi yapabilir miyim?",
             a10: "Evet, ilaçların dozunu, sıklığını ve süresini kaydedebilir, zamanı geldiğinde hatırlatıcı alabilirsiniz."
@@ -137,7 +137,7 @@ const translations = {
             a3: "Fang is free to download and contains no ads. Some advanced features may require a subscription.",
 
             q4: "How do I create a lost pet poster?",
-            a4: "Go to your pet's profile and tap 'Create Lost Poster'. A shareable image is generated in seconds.",
+            a4: "Go to your pet's profile and tap 'Lost Poster'. A shareable image is generated in seconds.",
 
             q5: "Can I use it offline?",
             a5: "Yes, Fang works offline for basic features. However, internet connection is required for features like Sharing and Places.",
@@ -149,7 +149,7 @@ const translations = {
             a7: "No, Fang is optimized for energy efficiency. GPS is only used during active walks.",
 
             q8: "How do I delete my data?",
-            a8: "You can permanently delete all your data via 'Reset All Data' in Settings > Data & Privacy.",
+            a8: "You can permanently delete all your data via Settings > Data Management.",
 
             q9: "Is there an Apple Watch app?",
             a9: "Our Apple Watch app is currently in development. Coming soon!",
