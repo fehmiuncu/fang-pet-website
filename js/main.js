@@ -45,6 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const langSelect = document.getElementById('language-select');
         if (langSelect) langSelect.value = lang;
 
+        // Update App Store badge
+        const appStoreBadge = document.getElementById('app-store-badge');
+        if (appStoreBadge) {
+            appStoreBadge.src = lang === 'tr' ? 'assets/images/badges/app-store-tr.svg' : 'assets/images/badges/app-store-en.svg';
+            appStoreBadge.alt = lang === 'tr' ? 'App Store\'dan İndir' : 'Download on the App Store';
+        }
     };
 
     // Initialize language
