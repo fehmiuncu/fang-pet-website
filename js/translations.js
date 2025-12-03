@@ -18,22 +18,22 @@ const translations = {
             subtitle: "Evcil hayvanın dağınık notlardan ve unutulan veteriner randevularından daha fazlasını hak ediyor.",
 
             walk_title: "Yürüyüşler Kayıt Altında",
-            walk_desc: "Yola çık, gerisini Fang'e bırak. GPS rotanı çizer, mesafeni kaydeder, tuvalet molalarını bile hatırlatır.",
+            walk_desc: "Yola çık, gerisini Fang'e bırak. GPS rotanı çizer, mesafeni kaydeder, tuvalet molalarını bile hatırlatır. Canlı Etkinlikler ile yürüyüş istatistiklerin Kilit Ekranında.",
 
             health_title: "Sağlık Kayıtları, Zahmetsiz",
-            health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al.",
+            health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al. \"Son aşı ne zamandı?\" sorusu artık yok.",
 
             sync_title: "Bakımı Paylaş",
-            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et. iCloud ile herkes senkronize. Kimin ne göreceğine sen karar ver.",
+            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et. iCloud ile herkes senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
 
             poster_title: "Kayıp mı? Hızlı Hareket Et",
-            poster_desc: "Saniyeler içinde profesyonel kayıp ilanı oluştur. Tek dokunuşla her yerde paylaş.",
+            poster_desc: "Saniyeler içinde profesyonel kayıp ilanı oluştur. Tek dokunuşla her yerde paylaş. Umarız hiç ihtiyacın olmaz.",
 
             routine_title: "Aksatmayan Rutinler",
-            routine_desc: "Mama saati, yürüyüş saati, ilaç saati. Fang hatırlıyor, sen hatırlamak zorunda değilsin.",
+            routine_desc: "Mama saati, yürüyüş saati, ilaç saati. Fang hatırlıyor, sen hatırlamak zorunda değilsin. Akıllı hatırlatmalarla program hep yolunda.",
 
             privacy_title: "Verilerin Sana Ait",
-            privacy_desc: "Hesap yok, sunucu yok, gizli takip yok. Her şey cihazında ve iCloud'unda. Nokta."
+            privacy_desc: "Hesap yok, sunucu yok, gizli takip yok. Her şey cihazında ve iCloud'unda kalır. Verilerini kimseyle paylaşmıyoruz."
         },
         support: {
             title: "Size nasıl yardımcı olabiliriz?",
@@ -102,22 +102,22 @@ const translations = {
             subtitle: "Your pet deserves more than scattered notes and forgotten vet dates.",
 
             walk_title: "Walks That Count",
-            walk_desc: "Hit the pavement and let Fang handle the details. GPS tracking maps your routes, logs your distance, and reminds you about bathroom breaks.",
+            walk_desc: "Hit the pavement and let Fang handle the details. GPS tracking maps your routes, logs your distance, and reminds you about bathroom breaks. Live Activities keep your walk stats on your Lock Screen.",
 
             health_title: "Health Without the Hassle",
-            health_desc: "Vaccines, meds, allergies, weight. It's all here. Set it once, get reminders forever.",
+            health_desc: "Vaccines, meds, allergies, weight. It's all here. Set it once, get reminders forever. No more \"wait, when was that last shot?\"",
 
             sync_title: "Share the Care",
             sync_desc: "Invite family, your dog walker, or even your vet. Everyone stays in sync through iCloud. You decide who sees what.",
 
             poster_title: "Lost Pet? Act Fast",
-            poster_desc: "Create a professional lost pet poster in seconds. One tap to share everywhere.",
+            poster_desc: "Create a professional lost pet poster in seconds. One tap to share everywhere. Let's hope you never need it.",
 
             routine_title: "Routines That Stick",
-            routine_desc: "Feeding time, walk time, pill time. Fang remembers so you don't have to.",
+            routine_desc: "Feeding time, walk time, pill time. Fang remembers so you don't have to. Smart reminders keep your pet's schedule on track.",
 
             privacy_title: "Your Data, Your Business",
-            privacy_desc: "No accounts, no servers, no sneaky tracking. Everything lives on your device and your iCloud. Period."
+            privacy_desc: "No accounts, no servers, no sneaky tracking. Everything lives on your device and your iCloud. We never share your data with anyone."
         },
         support: {
             title: "How can we help?",
