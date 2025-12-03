@@ -49,13 +49,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const appStoreBadge = document.getElementById('app-store-badge');
         if (appStoreBadge) {
             const badgeLang = lang === 'tr' ? 'tr' : 'en-us';
-            appStoreBadge.src = `https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/${badgeLang}?size=250x83`;
+            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const badgeColor = isDarkMode ? 'white' : 'black';
+            appStoreBadge.src = `https://tools.applemediaservices.com/api/badges/download-on-the-app-store/${badgeColor}/${badgeLang}?size=250x83`;
             appStoreBadge.alt = lang === 'tr' ? 'App Store\'dan İndir' : 'Download on the App Store';
         }
     };
 
     // Initialize language
     updateContent(currentLang);
+
+    // Listen for color scheme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        updateContent(localStorage.getItem('fang_lang') || 'en');
+    });
 
     // Language Switcher Event
     const langSelect = document.getElementById('language-select');
