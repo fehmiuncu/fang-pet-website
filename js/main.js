@@ -44,6 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update select dropdown if exists
         const langSelect = document.getElementById('language-select');
         if (langSelect) langSelect.value = lang;
+
+        // Update App Store badge
+        const appStoreBadge = document.getElementById('app-store-badge');
+        if (appStoreBadge) {
+            const badgeLang = lang === 'tr' ? 'tr' : 'en-us';
+            appStoreBadge.src = `https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/${badgeLang}?size=250x83`;
+            appStoreBadge.alt = lang === 'tr' ? 'App Store\'dan İndir' : 'Download on the App Store';
+        }
     };
 
     // Initialize language
