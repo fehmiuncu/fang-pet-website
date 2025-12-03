@@ -455,9 +455,14 @@ footer {
         font-size: 0.75rem;
     }
 
+    .logo {
+        flex-shrink: 0;
+    }
+
     .logo img {
         width: 32px !important;
         height: 32px !important;
+        min-width: 32px;
     }
 
     .footer-grid {
