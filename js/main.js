@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update App Store badge
         const appStoreBadge = document.getElementById('app-store-badge');
         if (appStoreBadge) {
-            const badgeLang = lang === 'tr' ? 'tr' : 'en-us';
+            const badgeLang = lang === 'tr' ? 'tr-tr' : 'en-us';
             const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
             const badgeColor = isDarkMode ? 'white' : 'black';
             appStoreBadge.src = `https://tools.applemediaservices.com/api/badges/download-on-the-app-store/${badgeColor}/${badgeLang}?size=250x83`;
