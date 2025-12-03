@@ -15,25 +15,25 @@ const translations = {
         },
         features: {
             title: "Fang ile Neler Yapabilirsiniz?",
-            subtitle: "Sadece bir takip uygulaması değil, evcil hayvanınız için tam donanımlı bir yaşam asistanı.",
+            subtitle: "Evcil hayvanın dağınık notlardan ve unutulan veteriner randevularından daha fazlasını hak ediyor.",
 
-            privacy_title: "Gizliliğiniz Önceliğimiz",
-            privacy_desc: "Reklam yok. Sunucu yok. Veri satışı yok. Fang, Apple'ın katı gizlilik kurallarına göre inşa edildi. Verileriniz sadece cihazınızda ve kişisel iCloud hesabınızda saklanır.",
+            walk_title: "Yürüyüşler Kayıt Altında",
+            walk_desc: "Yola çık, gerisini Fang'e bırak. GPS rotanı çizer, mesafeni kaydeder, tuvalet molalarını bile hatırlatır.",
 
-            sync_title: "Ortak Bakım & Paylaşım",
-            sync_desc: "Sadece aile değil; bakıcılar, yürüyüş yaptıranlar veya veterinerinizle de paylaşın. Herkes verileri anlık olarak görür. Her şey Apple sunucuları üzerinden güvenle senkronize olur.",
+            health_title: "Sağlık Kayıtları, Zahmetsiz",
+            health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al.",
 
-            walk_title: "Detaylı Yürüyüş Takibi",
-            walk_desc: "Yürüyüş rotalarını, süresini ve mesafeyi kaydedin. Geçmiş yürüyüşlerinizi harita üzerinde inceleyin ve evcil hayvanınızın aktivite hedeflerine ulaşıp ulaşmadığını takip edin.",
+            sync_title: "Bakımı Paylaş",
+            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et. iCloud ile herkes senkronize. Kimin ne göreceğine sen karar ver.",
 
-            poster_title: "Kayıp Posteri",
-            poster_desc: "Kötü bir durumda panik yapmayın. Tek bir tuşla, evcil hayvanınızın fotoğrafı ve bilgilerini içeren profesyonel bir kayıp posteri oluşturun ve hemen paylaşın.",
+            poster_title: "Kayıp mı? Hızlı Hareket Et",
+            poster_desc: "Saniyeler içinde profesyonel kayıp ilanı oluştur. Tek dokunuşla her yerde paylaş.",
 
-            health_title: "Sağlık Günlüğü",
-            health_desc: "Aşı takvimi, veteriner randevuları ve ilaç hatırlatıcıları. Hepsi tek bir yerde, elinizin altında.",
+            routine_title: "Aksatmayan Rutinler",
+            routine_desc: "Mama saati, yürüyüş saati, ilaç saati. Fang hatırlıyor, sen hatırlamak zorunda değilsin.",
 
-            insights_title: "Akıllı Analizler",
-            insights_desc: "Haftalık istatistikler ve sağlık trendleri ile dostunuzun formunu koruyun."
+            privacy_title: "Verilerin Sana Ait",
+            privacy_desc: "Hesap yok, sunucu yok, gizli takip yok. Her şey cihazında ve iCloud'unda. Nokta."
         },
         support: {
             title: "Size nasıl yardımcı olabiliriz?",
@@ -99,25 +99,25 @@ const translations = {
         },
         features: {
             title: "What Can You Do with Fang?",
-            subtitle: "Not just a tracker, but a fully equipped life assistant for your pet.",
+            subtitle: "Your pet deserves more than scattered notes and forgotten vet dates.",
 
-            privacy_title: "Privacy First",
-            privacy_desc: "No ads. No servers. No data selling. Fang is built on Apple's strict privacy standards. Your data lives only on your device and personal iCloud.",
+            walk_title: "Walks That Count",
+            walk_desc: "Hit the pavement and let Fang handle the details. GPS tracking maps your routes, logs your distance, and reminds you about bathroom breaks.",
 
-            sync_title: "Shared Care",
-            sync_desc: "Not just for family; share with sitters, walkers, or your vet. Everyone sees data instantly. Everything syncs securely via Apple servers.",
+            health_title: "Health Without the Hassle",
+            health_desc: "Vaccines, meds, allergies, weight. It's all here. Set it once, get reminders forever.",
 
-            walk_title: "Detailed Walk Tracking",
-            walk_desc: "Record routes, duration, and distance. Review past walks on the map and ensure your pet meets their activity goals.",
+            sync_title: "Share the Care",
+            sync_desc: "Invite family, your dog walker, or even your vet. Everyone stays in sync through iCloud. You decide who sees what.",
 
-            poster_title: "Lost Pet Poster",
-            poster_desc: "Don't panic in an emergency. Create a professional lost pet poster with your pet's photo and info in one tap, ready to share instantly.",
+            poster_title: "Lost Pet? Act Fast",
+            poster_desc: "Create a professional lost pet poster in seconds. One tap to share everywhere.",
 
-            health_title: "Health Journal",
-            health_desc: "Vaccine schedules, vet appointments, and medication reminders. All in one place.",
+            routine_title: "Routines That Stick",
+            routine_desc: "Feeding time, walk time, pill time. Fang remembers so you don't have to.",
 
-            insights_title: "Smart Insights",
-            insights_desc: "Keep your friend fit with weekly statistics and health trends."
+            privacy_title: "Your Data, Your Business",
+            privacy_desc: "No accounts, no servers, no sneaky tracking. Everything lives on your device and your iCloud. Period."
         },
         support: {
             title: "How can we help?",

@@ -412,22 +412,52 @@ footer {
         order: 2;
     }
 
-    /* Stack navigation on mobile */
+    /* Compact mobile navigation */
+    header {
+        padding: 12px 0;
+    }
+
     nav {
-        flex-direction: column;
-        gap: 16px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
     }
 
     .nav-links {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-        width: 100%;
+        flex-wrap: nowrap;
+        gap: 6px;
+        align-items: center;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
     }
 
-    .logo {
-        margin-bottom: 0;
+    .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-links a {
+        font-size: 0.75rem;
+        white-space: nowrap;
+        padding: 4px 8px;
+    }
+
+    .nav-links .btn-download {
+        padding: 6px 12px !important;
+        font-size: 0.75rem !important;
+    }
+
+    .lang-switcher {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+    }
+
+    .logo img {
+        width: 32px !important;
+        height: 32px !important;
     }
 
     .footer-grid {

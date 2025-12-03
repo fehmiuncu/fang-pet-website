@@ -119,53 +119,51 @@
                 </div>
 
                 <div class="features-grid expanded-grid">
-                    <!-- Privacy -->
-                    <div class="feature-card glass-panel animate-on-scroll clickable-card"
-                        onclick="openModal('privacy')">
-                        <div class="feature-icon">🔒</div>
-                        <h3 data-i18n="features.privacy_title">Privacy First</h3>
-                        <p data-i18n="features.privacy_desc">Your data is safe on your device and iCloud.</p>
-                    </div>
-
-                    <!-- Sync -->
-                    <div class="feature-card glass-panel animate-on-scroll clickable-card"
-                        style="transition-delay: 0.1s;" onclick="openModal('sync')">
-                        <div class="feature-icon">☁️</div>
-                        <h3 data-i18n="features.sync_title">Family Sync</h3>
-                        <p data-i18n="features.sync_desc">Instant synchronization via CloudKit for the whole family.</p>
-                    </div>
-
                     <!-- Walks -->
-                    <div class="feature-card glass-panel animate-on-scroll clickable-card"
-                        style="transition-delay: 0.2s;" onclick="openModal('walk')">
+                    <div class="feature-card glass-panel animate-on-scroll">
                         <div class="feature-icon">🦮</div>
-                        <h3 data-i18n="features.walk_title">Live Walk Tracking</h3>
-                        <p data-i18n="features.walk_desc">Record walk routes and duration with Live Activities.</p>
-                    </div>
-
-                    <!-- Poster -->
-                    <div class="feature-card glass-panel animate-on-scroll clickable-card"
-                        style="transition-delay: 0.3s;" onclick="openModal('poster')">
-                        <div class="feature-icon">📢</div>
-                        <h3 data-i18n="features.poster_title">Lost Pet Poster</h3>
-                        <p data-i18n="features.poster_desc">Create a professional lost pet poster in seconds.</p>
+                        <h3 data-i18n="features.walk_title">Walks That Count</h3>
+                        <p data-i18n="features.walk_desc">Hit the pavement and let Fang handle the details. GPS tracking maps your routes, logs your distance, and reminds you about bathroom breaks.</p>
                     </div>
 
                     <!-- Health -->
-                    <div class="feature-card glass-panel animate-on-scroll clickable-card"
-                        style="transition-delay: 0.4s;" onclick="openModal('health')">
-                        <div class="feature-icon">❤️</div>
-                        <h3 data-i18n="features.health_title">Health Journal</h3>
-                        <p data-i18n="features.health_desc">Vaccine schedules, vet appointments, and medication
-                            tracking.</p>
+                    <div class="feature-card glass-panel animate-on-scroll"
+                        style="transition-delay: 0.1s;">
+                        <div class="feature-icon">💉</div>
+                        <h3 data-i18n="features.health_title">Health Without the Hassle</h3>
+                        <p data-i18n="features.health_desc">Vaccines, meds, allergies, weight. It's all here. Set it once, get reminders forever.</p>
                     </div>
 
-                    <!-- Insights -->
-                    <div class="feature-card glass-panel animate-on-scroll clickable-card"
-                        style="transition-delay: 0.5s;" onclick="openModal('insights')">
-                        <div class="feature-icon">📊</div>
-                        <h3 data-i18n="features.insights_title">Smart Insights</h3>
-                        <p data-i18n="features.insights_desc">Weekly stats and health trends to keep your pet fit.</p>
+                    <!-- Sync -->
+                    <div class="feature-card glass-panel animate-on-scroll"
+                        style="transition-delay: 0.2s;">
+                        <div class="feature-icon">👨‍👩‍👧</div>
+                        <h3 data-i18n="features.sync_title">Share the Care</h3>
+                        <p data-i18n="features.sync_desc">Invite family, your dog walker, or even your vet. Everyone stays in sync through iCloud. You decide who sees what.</p>
+                    </div>
+
+                    <!-- Poster -->
+                    <div class="feature-card glass-panel animate-on-scroll"
+                        style="transition-delay: 0.3s;">
+                        <div class="feature-icon">🚨</div>
+                        <h3 data-i18n="features.poster_title">Lost Pet? Act Fast</h3>
+                        <p data-i18n="features.poster_desc">Create a professional lost pet poster in seconds. One tap to share everywhere.</p>
+                    </div>
+
+                    <!-- Routines -->
+                    <div class="feature-card glass-panel animate-on-scroll"
+                        style="transition-delay: 0.4s;">
+                        <div class="feature-icon">📋</div>
+                        <h3 data-i18n="features.routine_title">Routines That Stick</h3>
+                        <p data-i18n="features.routine_desc">Feeding time, walk time, pill time. Fang remembers so you don't have to.</p>
+                    </div>
+
+                    <!-- Privacy -->
+                    <div class="feature-card glass-panel animate-on-scroll"
+                        style="transition-delay: 0.5s;">
+                        <div class="feature-icon">🔒</div>
+                        <h3 data-i18n="features.privacy_title">Your Data, Your Business</h3>
+                        <p data-i18n="features.privacy_desc">No accounts, no servers, no sneaky tracking. Everything lives on your device and your iCloud. Period.</p>
                     </div>
                 </div>
             </div>
@@ -208,16 +206,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Feature Modal -->
-    <div id="feature-modal" class="modal-overlay">
-        <div class="modal-content glass-panel">
-            <button class="modal-close" onclick="closeModal()">×</button>
-            <div class="feature-icon" id="modal-icon"></div>
-            <h2 id="modal-title">Feature Title</h2>
-            <p id="modal-desc">Feature Description</p>
-        </div>
-    </div>
 
     <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
