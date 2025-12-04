@@ -92,7 +92,7 @@ const translations = {
             download: "Download"
         },
         hero: {
-            title: "The Ultimate Companion for Your Pet",
+            title: "The ultimate companion for your pet",
             subtitle: "Track walks, monitor health, and organize your pet's life with Fang. Modern, sleek, and smart.",
             cta: "Download on App Store",
             cta_secondary: "Learn More"
