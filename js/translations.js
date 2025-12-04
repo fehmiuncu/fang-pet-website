@@ -8,7 +8,7 @@ const translations = {
             download: "İndir"
         },
         hero: {
-            title: "Evcil Hayvanınız İçin En İyi Arkadaş",
+            title: "Evcil hayvanınız için en iyi arkadaş",
             subtitle: "Fang ile yürüyüşleri takip edin, sağlık verilerini izleyin ve evcil hayvanınızın hayatını düzenleyin. Modern, şık ve akıllı.",
             cta: "App Store'dan İndir",
             cta_secondary: "Daha Fazla Bilgi"
