@@ -51,6 +51,12 @@ document.addEventListener('DOMContentLoaded', () => {
             appStoreBadge.src = lang === 'tr' ? 'assets/images/badges/app-store-tr.svg' : 'assets/images/badges/app-store-en.svg';
             appStoreBadge.alt = lang === 'tr' ? 'App Store\'dan İndir' : 'Download on the App Store';
         }
+
+        // Update App Screenshot
+        const appScreenshot = document.getElementById('app-screenshot');
+        if (appScreenshot) {
+            appScreenshot.src = lang === 'tr' ? 'assets/images/app-screenshot-tr.png' : 'assets/images/app-screenshot-en.png';
+        }
     };
 
     // Initialize language

@@ -209,12 +209,8 @@ nav {
 
 .phone-mockup {
     width: 100%;
-    max-width: 400px;
+    max-width: 840px;
     height: auto;
-    border-radius: 40px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-    border: 8px solid rgba(255, 255, 255, 0.1);
-    /* Subtle border for dark mode */
     margin: 0 auto;
     display: block;
 }
