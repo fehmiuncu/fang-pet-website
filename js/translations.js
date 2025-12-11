@@ -18,7 +18,7 @@ const translations = {
             subtitle: "Evcil hayvanın dağınık notlardan ve unutulan veteriner randevularından daha fazlasını hak ediyor.",
 
             walk_title: "Yürüyüşler Kayıt Altında",
-            walk_desc: "Yola çık, gerisini Fang'e bırak. GPS rotanı çizer, mesafeni kaydeder, tuvalet molalarını bile hatırlatır. Canlı Etkinlikler ile yürüyüş istatistiklerin Kilit Ekranında.",
+            walk_desc: "Yola çık, gerisini Fang'e bırak. GPS rotanı çizer, mesafeni kaydeder, tuvalet bilgilerini kaydeder. Canlı Etkinlikler ile yürüyüş istatistiklerin Kilit Ekranında.",
 
             health_title: "Sağlık Kayıtları, Zahmetsiz",
             health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al. \"Son aşı ne zamandı?\" sorusu artık yok.",
@@ -102,7 +102,7 @@ const translations = {
             subtitle: "Your pet deserves more than scattered notes and forgotten vet dates.",
 
             walk_title: "Walks That Count",
-            walk_desc: "Hit the pavement and let Fang handle the details. GPS tracking maps your routes, logs your distance, and reminds you about bathroom breaks. Live Activities keep your walk stats on your Lock Screen.",
+            walk_desc: "Hit the pavement and let Fang handle the details. GPS tracking maps your routes, logs your distance, and records bathroom breaks. Live Activities keep your walk stats on your Lock Screen.",
 
             health_title: "Health Without the Hassle",
             health_desc: "Vaccines, meds, allergies, weight. It's all here. Set it once, get reminders forever. No more \"wait, when was that last shot?\"",
