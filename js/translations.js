@@ -23,7 +23,7 @@ const translations = {
             health_title: "Sağlık Kayıtları, Zahmetsiz",
             health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al. \"Son aşı ne zamandı?\" sorusu artık yok.",
 
-            sync_title: "Bakımı Paylaş",
+            sync_title: "Birlikte Bakım",
             sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et. iCloud ile herkes senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
 
             poster_title: "Kayıp mı? Hızlı Hareket Et",
