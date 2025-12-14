@@ -24,7 +24,7 @@ const translations = {
             health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al. \"Son aşı ne zamandı?\" sorusu artık yok.",
 
             sync_title: "Birlikte Bakım",
-            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et (her pet için 5 kişiye kadar). iCloud ile herkes senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
+            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et (her evcil hayvan için 5 kişiye kadar). iCloud ile herkes senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
 
             poster_title: "Kayıp mı? Hızlı Hareket Et",
             poster_desc: "Saniyeler içinde profesyonel kayıp ilanı oluştur. Tek dokunuşla her yerde paylaş. Umarız hiç ihtiyacın olmaz.",
@@ -47,7 +47,7 @@ const translations = {
             a1: "Kesinlikle. Fang hiçbir harici sunucu kullanmaz. Tüm verileriniz telefonunuzda ve kendi iCloud hesabınızda şifreli olarak saklanır.",
 
             q2: "Paylaşım özelliği nasıl çalışır?",
-            a2: "Evcil hayvan profilinden 'Paylaş' seçeneğine tıklayın ve aile üyenize, bakıcınıza veya veterinerinize bir bağlantı gönderin (her pet için en fazla 5 kişi). Kabul ettiklerinde tüm veriler otomatik senkronize olur.",
+            a2: "Evcil hayvan profilinden 'Paylaş' seçeneğine tıklayın ve aile üyenize, bakıcınıza veya veterinerinize bir bağlantı gönderin (her evcil hayvan için en fazla 5 kişi). Kabul ettiklerinde tüm veriler otomatik senkronize olur.",
 
             q3: "Uygulama ücretli mi?",
             a3: "Fang'i indirmek ücretsizdir. Reklam içermez. Bazı gelişmiş özellikler için abonelik gerekebilir.",
