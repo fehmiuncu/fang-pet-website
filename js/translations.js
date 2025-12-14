@@ -24,7 +24,7 @@ const translations = {
             health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al. \"Son aşı ne zamandı?\" sorusu artık yok.",
 
             sync_title: "Birlikte Bakım",
-            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et. iCloud ile herkes senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
+            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et (her pet için 5 kişiye kadar). iCloud ile herkes senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
 
             poster_title: "Kayıp mı? Hızlı Hareket Et",
             poster_desc: "Saniyeler içinde profesyonel kayıp ilanı oluştur. Tek dokunuşla her yerde paylaş. Umarız hiç ihtiyacın olmaz.",
@@ -47,7 +47,7 @@ const translations = {
             a1: "Kesinlikle. Fang hiçbir harici sunucu kullanmaz. Tüm verileriniz telefonunuzda ve kendi iCloud hesabınızda şifreli olarak saklanır.",
 
             q2: "Paylaşım özelliği nasıl çalışır?",
-            a2: "Evcil hayvan profilinden 'Paylaş' seçeneğine tıklayın ve aile üyenize, bakıcınıza veya veterinerinize bir bağlantı gönderin. Kabul ettiklerinde tüm veriler otomatik senkronize olur.",
+            a2: "Evcil hayvan profilinden 'Paylaş' seçeneğine tıklayın ve aile üyenize, bakıcınıza veya veterinerinize bir bağlantı gönderin (her pet için en fazla 5 kişi). Kabul ettiklerinde tüm veriler otomatik senkronize olur.",
 
             q3: "Uygulama ücretli mi?",
             a3: "Fang'i indirmek ücretsizdir. Reklam içermez. Bazı gelişmiş özellikler için abonelik gerekebilir.",
@@ -108,7 +108,7 @@ const translations = {
             health_desc: "Vaccines, meds, allergies, weight. It's all here. Set it once, get reminders forever. No more \"wait, when was that last shot?\"",
 
             sync_title: "Share the Care",
-            sync_desc: "Invite family, your dog walker, or even your vet. Everyone stays in sync through iCloud. You decide who sees what.",
+            sync_desc: "Invite family, your dog walker, or even your vet (up to 5 people per pet). Everyone stays in sync through iCloud. You decide who sees what.",
 
             poster_title: "Lost Pet? Act Fast",
             poster_desc: "Create a professional lost pet poster in seconds. One tap to share everywhere. Let's hope you never need it.",
@@ -131,7 +131,7 @@ const translations = {
             a1: "Absolutely. Fang uses no external servers. All data is stored encrypted on your device and your own iCloud account.",
 
             q2: "How does sharing work?",
-            a2: "Tap 'Share' in the pet profile and send a link to your family member, sitter, or vet. Once accepted, all data becomes shared.",
+            a2: "Tap 'Share' in the pet profile and send a link to your family member, sitter, or vet (up to 5 people per pet). Once accepted, all data becomes shared.",
 
             q3: "Is the app free?",
             a3: "Fang is free to download and contains no ads. Some advanced features may require a subscription.",
