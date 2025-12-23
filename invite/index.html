@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fang - Davet</title>
-    <meta name="apple-itunes-app" content="app-id=6740509522">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -21,10 +20,8 @@
             padding: 40px 20px;
             max-width: 400px;
         }
-        .logo {
-            width: 100px;
-            height: 100px;
-            border-radius: 22px;
+        .icon {
+            font-size: 80px;
             margin-bottom: 24px;
         }
         h1 {
@@ -33,7 +30,7 @@
         }
         p {
             color: rgba(255,255,255,0.7);
-            margin-bottom: 32px;
+            margin-bottom: 24px;
             line-height: 1.5;
         }
         .btn {
@@ -46,30 +43,49 @@
             font-weight: 600;
             font-size: 17px;
             transition: transform 0.2s;
+            margin: 8px;
         }
         .btn:hover { transform: scale(1.05); }
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
         .loading {
             margin-top: 20px;
             color: rgba(255,255,255,0.5);
             font-size: 14px;
         }
+        .beta-badge {
+            display: inline-block;
+            background: #FF9500;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="/assets/app-icon.png" alt="Fang" class="logo" onerror="this.style.display='none'">
+        <div class="icon">🐕</div>
+        <span class="beta-badge">BETA</span>
         <h1>Fang'e Davet Edildiniz!</h1>
         <p>Birisi sizinle evcil hayvanını paylaşmak istiyor. Daveti kabul etmek için Fang uygulamasını açın.</p>
-        <a href="https://apps.apple.com/app/id6740509522" class="btn">App Store'dan İndir</a>
+        <p style="font-size: 14px;">Fang şu anda beta aşamasında. Uygulamayı kullanmak için TestFlight davetiyesine ihtiyacınız var.</p>
+        <a href="https://testflight.apple.com/join/YOUR_CODE" class="btn">TestFlight'tan İndir</a>
         <p class="loading">Uygulama yüklüyse otomatik açılacak...</p>
     </div>
     <script>
         // Try to open the app with custom URL scheme as fallback
-        const token = window.location.pathname.split('/invite/')[1];
-        if (token) {
+        const pathParts = window.location.pathname.split('/');
+        const inviteIndex = pathParts.indexOf('invite');
+        if (inviteIndex !== -1 && pathParts[inviteIndex + 1]) {
+            const token = pathParts[inviteIndex + 1];
             setTimeout(() => {
                 window.location.href = 'fang://invite?token=' + token;
-            }, 500);
+            }, 1000);
         }
     </script>
 </body>
