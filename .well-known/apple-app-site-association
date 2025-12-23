@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["NMNTBF6Z76.com.fehmiuncu.FangApp"],
+        "paths": ["/invite/*"],
+        "components": [
+          {
+            "/": "/invite/*",
+            "comment": "Match invite links"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["NMNTBF6Z76.com.fehmiuncu.FangApp"]
+  }
+}
