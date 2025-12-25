@@ -103,8 +103,8 @@ const modalData = {
         icon: "🔒",
         title: { tr: "Gizliliğiniz Önceliğimiz", en: "Privacy First" },
         desc: {
-            tr: "Reklam yok. Sunucu yok. Fang, verilerinizi asla sunucularına göndermez. Tüm sağlık, konum ve evcil hayvan verileriniz cihazınızda şifrelenir ve sadece sizin kişisel iCloud hesabınızla senkronize edilir. Bizim bile verilerinize erişimimiz yoktur.",
-            en: "No ads. No servers. Fang never sends your data to its servers. All health, location, and pet data is encrypted on your device and synced only with your personal iCloud account. Even we cannot access your data."
+            tr: "Reklam yok. Takip yok. Verileriniz güvenli bulut altyapımızda saklanır. Apple veya Google hesabınızla giriş yapın, tüm cihazlarınızda senkronize edin. Verilerinizi satmıyoruz ve pazarlama için kullanmıyoruz.",
+            en: "No ads. No tracking. Your data is stored securely in our cloud infrastructure. Sign in with Apple or Google, sync across all your devices. We never sell your data or use it for marketing."
         }
     },
     sync: {

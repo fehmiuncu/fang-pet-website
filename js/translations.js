@@ -44,7 +44,7 @@ const translations = {
             contact_btn: "Destek ile İletişime Geç",
 
             q1: "Verilerim gerçekten güvende mi?",
-            a1: "Kesinlikle. Fang hiçbir harici sunucu kullanmaz. Tüm verileriniz telefonunuzda ve kendi iCloud hesabınızda şifreli olarak saklanır.",
+            a1: "Kesinlikle. Verileriniz güvenli bulut altyapımızda saklanır. Verilerinizi satmıyoruz ve pazarlama için kullanmıyoruz.",
 
             q2: "Paylaşım özelliği nasıl çalışır?",
             a2: "Evcil hayvan profilinden 'Paylaş' seçeneğine tıklayın ve aile üyenize, bakıcınıza veya veterinerinize bir bağlantı gönderin (her evcil hayvan için en fazla 5 kişi). Kabul ettiklerinde tüm veriler otomatik senkronize olur.",
@@ -108,7 +108,7 @@ const translations = {
             health_desc: "Vaccines, meds, allergies, weight. It's all here. Set it once, get reminders forever. No more \"wait, when was that last shot?\"",
 
             sync_title: "Share the Care",
-            sync_desc: "Invite family, your dog walker, or even your vet (up to 5 people per pet). Everyone stays in sync through iCloud. You decide who sees what.",
+            sync_desc: "Invite family, your dog walker, or even your vet (up to 5 people per pet). Everyone stays in sync instantly. You decide who sees what.",
 
             poster_title: "Lost Pet? Act Fast",
             poster_desc: "Create a professional lost pet poster in seconds. One tap to share everywhere. Let's hope you never need it.",
@@ -117,7 +117,7 @@ const translations = {
             routine_desc: "Feeding time, walk time, pill time. Fang remembers so you don't have to. Smart reminders keep your pet's schedule on track.",
 
             privacy_title: "Your Data, Your Business",
-            privacy_desc: "No accounts, no servers, no sneaky tracking. Everything lives on your device and your iCloud. We never share your data with anyone."
+            privacy_desc: "No ads, no sneaky tracking. Your data is stored securely and synced across your devices. We never sell or share your data with anyone."
         },
         support: {
             title: "How can we help?",
@@ -128,7 +128,7 @@ const translations = {
             contact_btn: "Contact Support",
 
             q1: "Is my data really safe?",
-            a1: "Absolutely. Fang uses no external servers. All data is stored encrypted on your device and your own iCloud account.",
+            a1: "Absolutely. Your data is stored securely in our cloud infrastructure. We never sell your data or use it for marketing.",
 
             q2: "How does sharing work?",
             a2: "Tap 'Share' in the pet profile and send a link to your family member, sitter, or vet (up to 5 people per pet). Once accepted, all data becomes shared.",
