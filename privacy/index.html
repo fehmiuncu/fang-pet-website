@@ -116,12 +116,10 @@
             <!-- ENGLISH CONTENT -->
             <div class="legal-text-block" lang="en">
                 <h1>Privacy Policy</h1>
-                <p><strong>Last Updated: December 3, 2025</strong></p>
+                <p><strong>Last Updated: December 25, 2025</strong></p>
 
                 <h3>Summary</h3>
-                <p>Your pet data stays in <strong>YOUR</strong> iCloud account. We (the developer) cannot see,
-                    access, or sell your data. We don't have ads, we don't track you, and we don't share your
-                    information with anyone.</p>
+                <p>Your pet data is securely stored in our cloud infrastructure. We use industry-standard encryption and security practices. We don't have ads, we don't track you for marketing purposes, and we don't sell your information to anyone.</p>
 
                 <h2>1. Introduction</h2>
                 <p>Welcome to Fang ("we", "our", or "us"). This Privacy Policy explains how your information is
@@ -129,14 +127,13 @@
                 <p>By using the App, you agree to the practices described in this policy.</p>
 
                 <h2>2. Our Privacy Commitment</h2>
-                <h3>How Fang is Different:</h3>
-                <p>Unlike many apps, Fang stores all your data in your personal Apple iCloud account using CloudKit.
-                    This means:</p>
+                <h3>How Fang Protects Your Data:</h3>
+                <p>Fang uses Google Cloud for secure data storage and synchronization. This means:</p>
                 <ul>
-                    <li>We don't have our own servers storing your data</li>
-                    <li>We cannot access your pet information</li>
-                    <li>Your data is protected by Apple's security</li>
-                    <li>You have complete control over your data</li>
+                    <li>Your data is encrypted in transit and at rest</li>
+                    <li>We use secure authentication (Apple Sign In, Google Sign In)</li>
+                    <li>Your data is protected by enterprise-grade security</li>
+                    <li>You have complete control over your data and can delete it anytime</li>
                 </ul>
 
                 <h2>3. Information You Provide</h2>
@@ -184,7 +181,7 @@
                     <li>Location is collected only when you tap "Start Walk"</li>
                     <li>Background location is used to continue tracking if you switch apps</li>
                     <li>Location tracking stops when you end the walk</li>
-                    <li>Walk routes are stored in your iCloud account</li>
+                    <li>Walk routes are securely stored in our cloud servers</li>
                 </ul>
 
                 <h3>4.2 Apple Health (HealthKit)</h3>
@@ -230,56 +227,63 @@
                         </tr>
                         <tr>
                             <td>Pet profiles, walks, health records</td>
-                            <td>Your iCloud (CloudKit)</td>
-                            <td>Only you (and people you share with)</td>
+                            <td>Google Cloud</td>
+                            <td>Only you (and household members you invite)</td>
                         </tr>
                         <tr>
                             <td>Photos</td>
-                            <td>Your iCloud</td>
-                            <td>Only you</td>
+                            <td>Google Cloud</td>
+                            <td>Only you (and household members)</td>
+                        </tr>
+                        <tr>
+                            <td>Authentication data</td>
+                            <td>Google Cloud</td>
+                            <td>You and Google</td>
                         </tr>
                         <tr>
                             <td>Subscription status</td>
-                            <td>Apple's servers</td>
-                            <td>Apple & you</td>
+                            <td>Apple & RevenueCat</td>
+                            <td>Apple, RevenueCat & you</td>
                         </tr>
                         <tr>
-                            <td>Shared pet data</td>
-                            <td>CloudKit Shared Database</td>
-                            <td>You and your invited caregivers</td>
+                            <td>Shared pet data (Household)</td>
+                            <td>Google Cloud</td>
+                            <td>You and your invited household members</td>
                         </tr>
                     </table>
                 </div>
 
                 <h3>6.2 Security</h3>
                 <ul>
-                    <li>All iCloud data is encrypted in transit and at rest</li>
-                    <li>Apple's CloudKit uses industry-standard security</li>
+                    <li>All data is encrypted in transit (TLS) and at rest (AES-256)</li>
+                    <li>Enterprise-grade security infrastructure</li>
+                    <li>Authentication via Apple Sign In or Google Sign In (OAuth 2.0)</li>
                     <li>Optional Face ID/Touch ID protection for app access</li>
-                    <li>We don't store any data on our own servers</li>
+                    <li>Security rules restrict data access to authorized users only</li>
                 </ul>
 
                 <h2>7. Data Sharing</h2>
 
-                <h3>7.1 Sharing Feature (Your Choice)</h3>
-                <p>The <strong>Sharing Feature</strong> lets you share pet data with others:</p>
+                <h3>7.1 Household Sharing (Your Choice)</h3>
+                <p>The <strong>Household Feature</strong> lets you share pet data with family members or caregivers:</p>
                 <ul>
-                    <li>You can share each pet with up to 5 people</li>
-                    <li>You choose who to invite (via their iCloud email)</li>
-                    <li>You choose what permission level they have</li>
-                    <li>You can revoke access anytime</li>
-                    <li>Shared users see only what you've shared</li>
+                    <li>You create a household and invite members via email or invitation link</li>
+                    <li>You choose what permission level each member has (viewer, editor, admin)</li>
+                    <li>You can revoke access anytime from the app</li>
+                    <li>Household members can only see pets shared within the household</li>
+                    <li>All household data is stored securely in our cloud</li>
                 </ul>
 
-                <h3>7.2 Third Parties</h3>
-                <p>We use only Apple's services:</p>
+                <h3>7.2 Third-Party Services</h3>
+                <p>We use the following services to provide our functionality:</p>
                 <ul>
-                    <li><strong>CloudKit:</strong> Data storage and sync (Apple)</li>
-                    <li><strong>HealthKit:</strong> Workout data (Apple)</li>
-                    <li><strong>StoreKit:</strong> Subscriptions (Apple)</li>
-                    <li><strong>MapKit:</strong> Maps display (Apple)</li>
+                    <li><strong>Google Cloud:</strong> Authentication, data storage, cloud functions</li>
+                    <li><strong>RevenueCat:</strong> Subscription management</li>
+                    <li><strong>Apple HealthKit:</strong> Workout data (optional, with your permission)</li>
+                    <li><strong>Apple MapKit:</strong> Maps display</li>
+                    <li><strong>Apple WeatherKit:</strong> Weather information for walks</li>
                 </ul>
-                <p>We do not use any third-party analytics, advertising, or tracking services.</p>
+                <p>We do not use any third-party analytics, advertising, or behavioral tracking services. We do not sell your data.</p>
 
                 <h2>8. Your Rights and Control</h2>
 
@@ -300,33 +304,28 @@
                 </ul>
 
                 <h3>8.4 Delete All Your Data</h3>
-                <h4>Option 1: In-App Reset (Recommended)</h4>
+                <h4>Option 1: In-App Data Deletion (Recommended)</h4>
                 <ol>
                     <li>Open Fang</li>
                     <li>Tap the gear icon (Settings)</li>
                     <li>Scroll to "Data & Privacy"</li>
-                    <li>Tap "Reset All Data"</li>
-                    <li>Confirm by tapping "Reset"</li>
+                    <li>Tap "Delete All Data"</li>
+                    <li>Confirm by tapping "Delete"</li>
                 </ol>
                 <p>This permanently deletes everything: all pets, walks, health records, routines, and settings from
-                    your device and iCloud.</p>
+                    your device and our cloud servers.</p>
 
-                <h4>Option 2: Delete iCloud Data Directly</h4>
+                <h4>Option 2: Delete Account</h4>
                 <ol>
-                    <li>Open iPhone Settings</li>
-                    <li>Tap your name at the top</li>
-                    <li>Tap iCloud</li>
-                    <li>Tap Manage Account Storage</li>
-                    <li>Find and tap Fang</li>
-                    <li>Tap Delete Data</li>
+                    <li>Open Fang</li>
+                    <li>Go to Settings → Account</li>
+                    <li>Tap "Delete Account"</li>
+                    <li>Confirm deletion</li>
                 </ol>
+                <p>This will delete your account and all associated data from our servers.</p>
 
-                <h4>Option 3: Delete the App</h4>
-                <ol>
-                    <li>Long-press the Fang app icon</li>
-                    <li>Tap "Remove App" → "Delete App"</li>
-                </ol>
-                <p><em>Note: This removes local data. iCloud data remains until you use Option 1 or 2.</em></p>
+                <h4>Option 3: Request Deletion via Email</h4>
+                <p>You can also request data deletion by emailing us at <a href="mailto:support@fang.pet" style="color: var(--primary);">support@fang.pet</a>. We will process your request within 30 days.</p>
 
                 <h3>8.5 Permissions</h3>
                 <p>You control all permissions in iOS Settings → Fang:</p>
@@ -345,16 +344,15 @@
                 <h2>10. International Users</h2>
 
                 <h3>10.1 GDPR (European Union)</h3>
-                <p>EU residents have additional rights:</p>
+                <p>EU residents have additional rights under GDPR:</p>
                 <ul>
-                    <li><strong>Access:</strong> View all your data in the App</li>
+                    <li><strong>Access:</strong> View all your data in the App or request a copy</li>
                     <li><strong>Rectification:</strong> Edit any incorrect data in the App</li>
-                    <li><strong>Erasure:</strong> Delete your data using methods above</li>
-                    <li><strong>Portability:</strong> Your data is in your iCloud account</li>
+                    <li><strong>Erasure:</strong> Delete your data using methods above or request deletion</li>
+                    <li><strong>Portability:</strong> Request your data in a machine-readable format</li>
                     <li><strong>Object:</strong> You can stop using the App anytime</li>
                 </ul>
-                <p>Since your data is stored in your personal iCloud (not our servers), you already have full control.
-                </p>
+                <p>For GDPR requests, contact us at <a href="mailto:support@fang.pet" style="color: var(--primary);">support@fang.pet</a>. We will respond within 30 days.</p>
 
                 <h3>10.2 CCPA (California)</h3>
                 <p>California residents: We do not sell personal information. You can delete your data as described in
@@ -391,12 +389,10 @@
             <!-- TURKISH CONTENT -->
             <div class="legal-text-block" lang="tr" style="display: none;">
                 <h1>Gizlilik Politikası</h1>
-                <p><strong>Son Güncelleme: 3 Aralık 2025</strong></p>
+                <p><strong>Son Güncelleme: 25 Aralık 2025</strong></p>
 
                 <h3>Özet</h3>
-                <p>Evcil hayvan verileriniz <strong>SİZİN</strong> iCloud hesabınızda kalır. Biz (geliştirici)
-                    verilerinizi göremez, erişemez veya satamayız. Reklamımız yok, sizi takip etmiyoruz ve
-                    bilgilerinizi kimseyle paylaşmıyoruz.</p>
+                <p>Evcil hayvan verileriniz bulut altyapımızda güvenle saklanır. Endüstri standardı şifreleme ve güvenlik uygulamaları kullanıyoruz. Reklamımız yok, pazarlama amacıyla sizi takip etmiyoruz ve bilgilerinizi kimseye satmıyoruz.</p>
 
                 <h2>1. Giriş</h2>
                 <p>Fang'e ("biz", "bizim" veya "bize") hoş geldiniz. Bu Gizlilik Politikası, Fang mobil uygulamasını
@@ -405,14 +401,13 @@
                 <p>Uygulamayı kullanarak, bu politikada açıklanan uygulamaları kabul etmiş olursunuz.</p>
 
                 <h2>2. Gizlilik Taahhüdümüz</h2>
-                <h3>Fang Nasıl Farklıdır:</h3>
-                <p>Birçok uygulamanın aksine, Fang tüm verilerinizi CloudKit kullanarak kişisel Apple iCloud
-                    hesabınızda saklar. Bu şu anlama gelir:</p>
+                <h3>Fang Verilerinizi Nasıl Korur:</h3>
+                <p>Fang, güvenli veri depolama ve senkronizasyon için Google Cloud kullanır. Bu şu anlama gelir:</p>
                 <ul>
-                    <li>Kendi sunucularımızda verilerinizi saklamıyoruz</li>
-                    <li>Evcil hayvan bilgilerinize erişemeyiz</li>
-                    <li>Verileriniz Apple'ın güvenliği altındadır</li>
-                    <li>Verileriniz üzerinde tam kontrole sahipsiniz</li>
+                    <li>Verileriniz aktarım sırasında ve dinlenme halindeyken şifrelenir</li>
+                    <li>Güvenli kimlik doğrulama kullanıyoruz (Apple ile Giriş, Google ile Giriş)</li>
+                    <li>Verileriniz kurumsal düzeyde güvenlik altyapısı ile korunur</li>
+                    <li>Verileriniz üzerinde tam kontrole sahipsiniz ve istediğiniz zaman silebilirsiniz</li>
                 </ul>
 
                 <h2>3. Sağladığınız Bilgiler</h2>
@@ -460,7 +455,7 @@
                     <li>Konum yalnızca "Yürüyüşü Başlat"a dokunduğunuzda toplanır</li>
                     <li>Uygulamalar arasında geçiş yaparsanız takibi sürdürmek için arka plan konumu kullanılır</li>
                     <li>Yürüyüşü bitirdiğinizde konum takibi durur</li>
-                    <li>Yürüyüş rotaları iCloud hesabınızda saklanır</li>
+                    <li>Yürüyüş rotaları bulut sunucularımızda güvenle saklanır</li>
                 </ul>
 
                 <h3>4.2 Apple Sağlık (HealthKit)</h3>
@@ -508,57 +503,63 @@
                         </tr>
                         <tr>
                             <td>Evcil hayvan profilleri, yürüyüşler, sağlık</td>
-                            <td>Sizin iCloud'unuz (CloudKit)</td>
-                            <td>Sadece siz (ve paylaştığınız kişiler)</td>
+                            <td>Google Cloud</td>
+                            <td>Sadece siz (ve davet ettiğiniz hane üyeleri)</td>
                         </tr>
                         <tr>
                             <td>Fotoğraflar</td>
-                            <td>Sizin iCloud'unuz</td>
-                            <td>Sadece siz</td>
+                            <td>Google Cloud</td>
+                            <td>Sadece siz (ve hane üyeleri)</td>
+                        </tr>
+                        <tr>
+                            <td>Kimlik doğrulama verileri</td>
+                            <td>Google Cloud</td>
+                            <td>Siz ve Google</td>
                         </tr>
                         <tr>
                             <td>Abonelik durumu</td>
-                            <td>Apple'ın sunucuları</td>
-                            <td>Apple ve siz</td>
+                            <td>Apple ve RevenueCat</td>
+                            <td>Apple, RevenueCat ve siz</td>
                         </tr>
                         <tr>
-                            <td>Paylaşılan evcil hayvan verileri</td>
-                            <td>CloudKit Paylaşılan Veritabanı</td>
-                            <td>Siz ve davet ettiğiniz bakıcılar</td>
+                            <td>Paylaşılan evcil hayvan verileri (Hane)</td>
+                            <td>Google Cloud</td>
+                            <td>Siz ve davet ettiğiniz hane üyeleri</td>
                         </tr>
                     </table>
                 </div>
 
                 <h3>6.2 Güvenlik</h3>
                 <ul>
-                    <li>Tüm iCloud verileri aktarım sırasında ve dinlenme halindeyken şifrelenir</li>
-                    <li>Apple'ın CloudKit'i endüstri standardı güvenlik kullanır</li>
+                    <li>Tüm veriler aktarım sırasında (TLS) ve dinlenme halindeyken (AES-256) şifrelenir</li>
+                    <li>Kurumsal düzeyde güvenlik altyapısı</li>
+                    <li>Apple ile Giriş veya Google ile Giriş üzerinden kimlik doğrulama (OAuth 2.0)</li>
                     <li>Uygulama erişimi için isteğe bağlı Face ID/Touch ID koruması</li>
-                    <li>Kendi sunucularımızda hiçbir veri saklamıyoruz</li>
+                    <li>Güvenlik kuralları veri erişimini yalnızca yetkili kullanıcılarla sınırlar</li>
                 </ul>
 
                 <h2>7. Veri Paylaşımı</h2>
 
-                <h3>7.1 Paylaşım Özelliği (Sizin Seçiminiz)</h3>
-                <p><strong>Paylaşım Özelliği</strong>, evcil hayvan verilerini başkalarıyla paylaşmanıza olanak tanır:
-                </p>
+                <h3>7.1 Hane Paylaşımı (Sizin Seçiminiz)</h3>
+                <p><strong>Hane Özelliği</strong>, evcil hayvan verilerini aile üyeleri veya bakıcılarla paylaşmanıza olanak tanır:</p>
                 <ul>
-                    <li>Her evcil hayvanı <strong>en fazla 5 kişiyle</strong> paylaşabilirsiniz</li>
-                    <li>Kimi davet edeceğinizi <strong>siz seçersiniz</strong> (iCloud e-postaları aracılığıyla)</li>
-                    <li>Hangi izin seviyesine sahip olacaklarını <strong>siz seçersiniz</strong></li>
-                    <li>Erişimi <strong>istediğiniz zaman</strong> iptal edebilirsiniz</li>
-                    <li>Paylaşılan kullanıcılar <strong>yalnızca paylaştıklarınızı</strong> görür</li>
+                    <li>Bir hane oluşturur ve e-posta veya davet bağlantısı ile üye davet edersiniz</li>
+                    <li>Her üyenin hangi izin seviyesine sahip olacağını <strong>siz seçersiniz</strong> (izleyici, düzenleyici, yönetici)</li>
+                    <li>Erişimi uygulamadan <strong>istediğiniz zaman</strong> iptal edebilirsiniz</li>
+                    <li>Hane üyeleri yalnızca hane içinde paylaşılan evcil hayvanları görebilir</li>
+                    <li>Tüm hane verileri bulutumuzda güvenle saklanır</li>
                 </ul>
 
-                <h3>7.2 Üçüncü Taraflar</h3>
-                <p>Yalnızca Apple'ın hizmetlerini kullanıyoruz:</p>
+                <h3>7.2 Üçüncü Taraf Hizmetleri</h3>
+                <p>İşlevselliğimizi sağlamak için aşağıdaki hizmetleri kullanıyoruz:</p>
                 <ul>
-                    <li><strong>CloudKit:</strong> Veri depolama ve senkronizasyon (Apple)</li>
-                    <li><strong>HealthKit:</strong> Antrenman verileri (Apple)</li>
-                    <li><strong>StoreKit:</strong> Abonelikler (Apple)</li>
-                    <li><strong>MapKit:</strong> Harita gösterimi (Apple)</li>
+                    <li><strong>Google Cloud:</strong> Kimlik doğrulama, veri depolama, bulut fonksiyonları</li>
+                    <li><strong>RevenueCat:</strong> Abonelik yönetimi</li>
+                    <li><strong>Apple HealthKit:</strong> Antrenman verileri (isteğe bağlı, izninizle)</li>
+                    <li><strong>Apple MapKit:</strong> Harita gösterimi</li>
+                    <li><strong>Apple WeatherKit:</strong> Yürüyüşler için hava durumu bilgisi</li>
                 </ul>
-                <p>Herhangi bir üçüncü taraf analiz, reklam veya izleme hizmeti kullanmıyoruz.</p>
+                <p>Herhangi bir üçüncü taraf analiz, reklam veya davranış izleme hizmeti kullanmıyoruz. Verilerinizi satmıyoruz.</p>
 
                 <h2>8. Haklarınız ve Kontrol</h2>
 
@@ -585,34 +586,28 @@
                 </ul>
 
                 <h3>8.4 Tüm Verilerinizi Silme</h3>
-                <h4>Seçenek 1: Uygulama İçi Sıfırlama (Önerilen)</h4>
+                <h4>Seçenek 1: Uygulama İçi Veri Silme (Önerilen)</h4>
                 <ol>
                     <li>Fang'i açın</li>
                     <li>Dişli simgesine (Ayarlar) dokunun</li>
                     <li>"Veri ve Gizlilik" bölümüne kaydırın</li>
-                    <li>"Tüm Verileri Sıfırla"ya dokunun</li>
-                    <li>"Sıfırla"ya dokunarak onaylayın</li>
+                    <li>"Tüm Verileri Sil"e dokunun</li>
+                    <li>"Sil"e dokunarak onaylayın</li>
                 </ol>
                 <p>Bu, her şeyi kalıcı olarak siler: tüm evcil hayvanlar, yürüyüşler, sağlık kayıtları, rutinler ve
-                    ayarlar cihazınızdan ve iCloud'dan silinir.</p>
+                    ayarlar cihazınızdan ve bulut sunucularımızdan silinir.</p>
 
-                <h4>Seçenek 2: iCloud Verilerini Doğrudan Silme</h4>
+                <h4>Seçenek 2: Hesabı Silme</h4>
                 <ol>
-                    <li>iPhone Ayarlarını açın</li>
-                    <li>En üstteki adınıza dokunun</li>
-                    <li>iCloud'a dokunun</li>
-                    <li>Hesap Saklama Alanını Yönet'e dokunun</li>
-                    <li>Fang'i bulun ve dokunun</li>
-                    <li>Verileri Sil'e dokunun</li>
+                    <li>Fang'i açın</li>
+                    <li>Ayarlar → Hesap'a gidin</li>
+                    <li>"Hesabı Sil"e dokunun</li>
+                    <li>Silme işlemini onaylayın</li>
                 </ol>
+                <p>Bu, hesabınızı ve sunucularımızdaki tüm ilişkili verileri silecektir.</p>
 
-                <h4>Seçenek 3: Uygulamayı Silme</h4>
-                <ol>
-                    <li>Fang uygulama simgesine uzun basın</li>
-                    <li>"Uygulamayı Kaldır" → "Uygulamayı Sil"e dokunun</li>
-                </ol>
-                <p><em>Not: Bu, yerel verileri kaldırır. iCloud verileri, Seçenek 1 veya 2'yi kullanana kadar
-                        kalır.</em></p>
+                <h4>Seçenek 3: E-posta ile Silme Talebi</h4>
+                <p>Veri silme talebinizi <a href="mailto:support@fang.pet" style="color: var(--primary);">support@fang.pet</a> adresine e-posta göndererek de yapabilirsiniz. Talebinizi 30 gün içinde işleme alacağız.</p>
 
                 <h3>8.5 İzinler</h3>
                 <p>Tüm izinleri iOS Ayarları → Fang bölümünden kontrol edersiniz:</p>
@@ -631,16 +626,15 @@
                 <h2>10. Uluslararası Kullanıcılar</h2>
 
                 <h3>10.1 GDPR (Avrupa Birliği)</h3>
-                <p>AB sakinlerinin ek hakları vardır:</p>
+                <p>AB sakinlerinin GDPR kapsamında ek hakları vardır:</p>
                 <ul>
-                    <li><strong>Erişim:</strong> Uygulamadaki tüm verilerinizi görüntüleyin</li>
+                    <li><strong>Erişim:</strong> Uygulamadaki tüm verilerinizi görüntüleyin veya bir kopya talep edin</li>
                     <li><strong>Düzeltme:</strong> Uygulamadaki hatalı verileri düzenleyin</li>
-                    <li><strong>Silme:</strong> Yukarıdaki yöntemleri kullanarak verilerinizi silin</li>
-                    <li><strong>Taşınabilirlik:</strong> Verileriniz iCloud hesabınızdadır</li>
+                    <li><strong>Silme:</strong> Yukarıdaki yöntemleri kullanarak verilerinizi silin veya silme talep edin</li>
+                    <li><strong>Taşınabilirlik:</strong> Verilerinizi makine tarafından okunabilir bir formatta talep edin</li>
                     <li><strong>İtiraz:</strong> Uygulamayı istediğiniz zaman kullanmayı bırakabilirsiniz</li>
                 </ul>
-                <p>Verileriniz kişisel iCloud'unuzda (bizim sunucularımızda değil) saklandığından, zaten tam kontrole
-                    sahipsiniz.</p>
+                <p>GDPR talepleri için <a href="mailto:support@fang.pet" style="color: var(--primary);">support@fang.pet</a> adresinden bizimle iletişime geçin. 30 gün içinde yanıt vereceğiz.</p>
 
                 <h3>10.2 CCPA (Kaliforniya)</h3>
                 <p>Kaliforniya sakinleri: Kişisel bilgileri satmıyoruz. Verilerinizi Bölüm 8'de açıklandığı gibi
