@@ -24,7 +24,7 @@ const translations = {
             health_desc: "Aşılar, ilaçlar, alerjiler, kilo. Hepsi burada. Bir kez kaydet, hatırlatmaları sonsuza kadar al. \"Son aşı ne zamandı?\" sorusu artık yok.",
 
             sync_title: "Birlikte Bakım",
-            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et (her evcil hayvan için 5 kişiye kadar). iCloud ile herkes senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
+            sync_desc: "Aileyi, bakıcıyı, hatta veterineri davet et (her evcil hayvan için 5 kişiye kadar). Herkes anında senkronize kalır. Kimin ne göreceğine sen karar verirsin.",
 
             poster_title: "Kayıp mı? Hızlı Hareket Et",
             poster_desc: "Saniyeler içinde profesyonel kayıp ilanı oluştur. Tek dokunuşla her yerde paylaş. Umarız hiç ihtiyacın olmaz.",
@@ -33,7 +33,7 @@ const translations = {
             routine_desc: "Mama saati, yürüyüş saati, ilaç saati. Fang hatırlıyor, sen hatırlamak zorunda değilsin. Akıllı hatırlatmalarla program hep yolunda.",
 
             privacy_title: "Verilerin Sana Ait",
-            privacy_desc: "Hesap yok, sunucu yok, gizli takip yok. Her şey cihazında ve iCloud'unda kalır. Verilerini kimseyle paylaşmıyoruz."
+            privacy_desc: "Reklam yok, gizli takip yok. Verilerin güvenli bulut altyapımızda saklanır ve cihazların arasında senkronize edilir. Verilerini asla satmıyor veya paylaşmıyoruz."
         },
         support: {
             title: "Size nasıl yardımcı olabiliriz?",
